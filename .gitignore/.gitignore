@@ -1,0 +1,14 @@
+class Student:
+    def __init__(self,name):
+      self.name = name      #SuperStudent.name = "Jaleigha"
+      self.age = 16
+#self is your objects name
+    def age_of_student(self,age):
+      self.age = age
+      return self.age
+
+def main(): #object
+    SuperStudent = Student("Jaleigha")   #name="Jaleigha"
+    SuperStudent.age_of_student(17)
+
+main()    
